@@ -58,6 +58,7 @@ const Meme = () => {
   };
 
   const handleButtonClick = () => {
+    setIsClicked(false)
     fetchMeme();
   };
 
